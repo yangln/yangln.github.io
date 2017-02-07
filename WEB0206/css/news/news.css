@@ -1,0 +1,62 @@
+.dongtai-banner{
+    width: 100%;
+    height: 700px;
+    background: url(../../images/banner/dongtai.jpg) no-repeat center;
+    margin-bottom: 60px;
+}
+.cf-cont .cf-main h3{
+	color: #155eab;
+    border-bottom: 1px solid #155eab;
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+    margin-bottom: 60px;
+    font-size: 24px;
+    text-align: center;
+    cursor: pointer;
+}
+.gg-newslist ul li a{
+	width: 650px;
+	color: #666666;
+	height: 40px;
+	line-height: 40px;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	border-bottom: 1px solid #fff;
+}
+.gg-newslist ul li a:hover{
+	color: #0388cb;
+}
+.gg-newslist ul{
+    display: none;
+}
+.gg-newslist ul.current{
+    display: block;
+}
+.gg-newslist .pages {
+    margin: 40px auto 0 auto;
+    text-align: center;
+}
+.gg-newslist .pages a{
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    margin: 0 1px;
+    line-height: 25px;
+    text-align: center;
+    border-radius: 50%;
+    background: #dddddd;
+    color: #666666;
+    font-family: \u5b8b\u4f53,Arial;
+    font-size: 14px;
+    cursor: pointer;
+}
+.gg-newslist .pages a:hover{
+	background: #145eac;
+    color: #fff;
+}
+.gg-newslist .pages a.current{
+	background: #145eac;
+    color: #fff;
+}

@@ -1,0 +1,31 @@
+
+.cf-cont .cf-banner{
+	width: 100%;
+	height: 500px;
+	background: url(../../images/banner/cf.gif) no-repeat center;
+}
+.cf-cont .cf-main{
+	padding-top: 70px;
+}
+.cf-cont .cf-main h3{
+	color: #155eab;
+    border-bottom: 1px solid #155eab;
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+    margin-bottom: 60px;
+    font-size: 24px;
+    text-align: center;
+    cursor: pointer;
+}
+.cf-cont .cf-main p{
+	font-size: 14px;
+	line-height: 25px;
+    color: #666;
+}
+.cf-cont .cf-main .cf-img{
+	width: 443px;
+	height: 614px;
+	margin: 0 auto;
+	background: url(../../images/caifu/cfimg.jpg) no-repeat;
+}

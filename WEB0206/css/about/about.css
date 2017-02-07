@@ -1,0 +1,93 @@
+.aboutus-banner{
+	width: 100%;
+	height: 700px;
+	background: url(../../images/banner/about.jpg) no-repeat center;
+    margin-bottom: 60px;
+}
+.cf-cont .cf-main h3{
+	color: #155eab;
+    border-bottom: 1px solid #155eab;
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+    margin-bottom: 60px;
+    font-size: 24px;
+    text-align: center;
+    cursor: pointer;
+}
+.cf-cont .cf-main p{
+	font-size: 14px;
+	line-height: 25px;
+    color: #666;
+}
+/* history */
+.history{
+    position: relative;
+    margin-bottom: 60px;
+}
+.history>div{
+    padding-top: 70px;
+}
+.history:before{
+    content: '';
+    width: 4px;
+    height: 100%;
+    background: #4c8ee0;
+    position: absolute;
+    left: 50%;
+    top: 0;
+    margin-left: -2px;
+}
+.history .month:before{
+    content: '';
+    position: absolute;
+    left: 50%;
+    width: 20px;
+    height: 20px;
+    margin-left: -10px;
+    vertical-align: top;
+    background: url(../../images/common/month_icon.png) no-repeat;
+}
+.history .month strong{
+    width: 100px;
+    position: absolute;
+    left: 50%;
+    margin-left: -50px;
+    margin-top: -2px;
+    color: #5091dd;
+    font-size: 16px;
+}
+.history .month{
+    position: relative;
+    height: 100px;
+    overflow: hidden;
+    color: #666666;
+    font-size: 16px;
+}
+.history .year{
+    z-index: 9;
+    position: absolute;
+    left: 50%;
+    width: 44px;
+    height: 44px;
+    margin-left: -22px;
+    line-height: 43px;
+    border-radius: 50%;
+    background-color: #4c8fe0;
+    color: #fff;
+    text-align: center;
+    cursor: pointer;
+}
+.history .history-top{
+    padding-top: 0;
+}
+.history .year-top{
+    cursor: default;
+    background-color: #b6b6b6;
+}
+.pd-r{
+    padding-right:580px;
+}
+.pd-l{
+    padding-left:580px;
+}
